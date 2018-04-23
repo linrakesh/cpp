@@ -1,3 +1,6 @@
+/*  array declaration + initialization method
+*/
+
 #include<iostream>
 #include<stdlib.h>
 #include<iomanip>
@@ -6,12 +9,10 @@
 
 using namespace std;
 int main(){
-	int a[10],i;
-	//input phase 
-	for(i=0;i<10;i++)
-		a[i] = random(10);
+	int a[10]={10,20,30,40,60};
+	
 	// output phase
-	for(i=0;i<10;i++)
+	for(int i=0;i<10;i++)
 		cout<<setw(10)<<a[i];
 	return 0;
 }

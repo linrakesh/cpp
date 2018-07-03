@@ -1,6 +1,3 @@
-/*  array declaration + initialization from keyboard
-*/
-
 #include<iostream>
 #include<stdlib.h>
 #include<iomanip>

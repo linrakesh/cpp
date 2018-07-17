@@ -2,11 +2,11 @@
 #include<string.h>
 using namespace std;
 	struct student{
-	int roll;
-	char name[30];
-	float fees;
-	char grade;
-	char std[10];
+		int roll;
+		char name[30];
+		float fees;
+		char grade;
+		char std[10];
 };
 
 int main()

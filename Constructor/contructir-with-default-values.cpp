@@ -7,10 +7,10 @@ class student{
 		char name[30];
 		
 	public:
-		student()    // constructor function
+		student(int x=10, char y[]="Sumit Singh")    // parameterized constructor with default values
 		{
-		  roll= 10;
-		  strcpy(name,"manan")	;
+		  roll= x;
+		  strcpy(name,y)	;
 		}
 		void show_data(){
 		    cout<<"\n Roll no :"<<roll;
@@ -18,9 +18,10 @@ class student{
 		}
 };
 
-
 int main(){
-	student s;     // constructor function runs at the time of object creation
+	
+	//student s;     // constructor function runs at the time of object creation
+	student s(30,"Hitesg");
 	s.show_data();
 	return 0;
 }
